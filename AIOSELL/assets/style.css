@@ -1,0 +1,205 @@
+body{
+    color: #8e8e8e;
+    font-size: 17px;
+    font-family: lato,;
+}
+.navbar, .hotel-sales, .special-offers{
+    background: url(https://aiosell.com/wp-content/uploads/2020/11/diagmonds.png) repeat left top,linear-gradient(to right,#e81927,#d80e15);
+    font: lato;
+    
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+.nav-link{
+    color: white;
+    font-weight: 25px;
+
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+.header{
+    color: #d80e15;
+}
+.btn{
+    color: #ffffff;
+    border: 2px solid #d80e15;
+    background-color: #d80e15;
+}
+
+.btn:hover{
+    color: #d80e15;
+    background-color: #ffffff;
+    border: 2px solid #d80e15;
+}
+
+.ytvid{
+border: #ffffff solid 10px;
+border-radius: 10px;
+width:530px ;
+height:298px;
+}
+.about,.hotel-system, .videos, .case-study{
+    background-color:#FCFCFC;
+}
+.hr{
+    width: 100px;
+    border: 1.5px solid #d80e15;
+    margin: auto;
+}
+input[type='text']{
+    border: #d80e15 1px solid;
+}
+input[type='submit']{
+ background-color:#d80e15;
+ color: #ffffff;
+ font-weight: bold;
+}
+.form{
+    padding-bottom: 60px;
+}
+.product{
+    color: #000000;
+}
+.productlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    color: #d80e15;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #d80e15;
+}
+
+ul li a:hover{
+    color: #000;
+}
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+thead{
+    background-color: #d80e15;
+    text-align: center;
+}
+tr{
+    color: #8e8e8e;
+}
+h3{
+    color: #000000;
+}
+a{
+    text-decoration: none;
+}
+.card-header{
+    color: #000000;
+    background-color: #FCE5D7;
+    height: 80px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.card-footer{
+    color:#D61D24;
+    background-color: #ffffff;
+    height: 50px;
+    font-weight:500;
+    height: 80px;
+    padding-top:30px;
+}
+.case-study{
+    padding-bottom: 100px;
+}
+
+.hr2{
+    width: 100px;
+    border: 1.5px solid #fff;
+    margin: auto;
+}
+.sales{
+    padding-bottom: 40px;
+}
+.sales input[type='submit']{
+ color:#d80e15;
+ background-color: #ffffff;
+ font-weight: bold;
+}
+th{
+    color: #555555;
+}
+tr:nth-child(even){
+    background-color: #ffffff;
+}
+.hr1{
+    border: 1px solid #D1D4D5;
+}
+.copyright{
+    text-align: center;
+}
+.quick-link{
+    text-decoration: none;
+    color: #8e8e8e;
+    list-style-type: none;
+}
+.blind{
+    text-decoration: none;
+    color: #8e8e8e;
+}
+th,td{
+    padding: 20px;
+    font-size: 14px;
+}
+tr:nth-child(even) {
+    background-color: #E7E8E9;
+}
+
+.icons{
+    margin-top: 20px;
+   padding-left: 10px;
+   padding-top: 10px;
+    border: #D61D24 2px solid;
+    width: 40px;
+    height: 40px;
+}
+.single-online {
+    background: linear-gradient(to right, transparent calc(50% + 1px), #fff calc(50% + 1px)), linear-gradient(to right, #fff calc(50% - 1px), rgb(216 14 21 / 20%) calc(50% - 1px)) !important;
+    background-size: 100% 85% !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.single{
+    background: white;
+    text-align: center;
+    font-weight: 900;
+    color: #555;
+    font-size: 18px;
+    display: block;
+    margin: 300px auto;
+
+}
+.pill{
+    border: 1px solid #8e8e8e;
+    background-color: #ffffff;
+    color: #D61D24;
+    font-weight: bolder;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 50%;
+    right: 205px;
+}
+td{
+    text-align: center;
+}
+.quick-link2{
+    list-style-type: none;
+    margin-left: 100px;
+    
+}

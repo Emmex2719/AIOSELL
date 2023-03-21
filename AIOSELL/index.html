@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link rel="stylesheet" href="../bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="/bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>All in One Hotel Management System with Dynamic Price - Aiosell</title>
+</head>
+
+<body>
+
+    <div>
+        <nav class="navbar p-4 navbar-expand-lg" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img src="./assets/images/Aiosell-Logo-white-revised.png"
+                        width="250px" height="50px" alt="img"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-md-center flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://aiosell.com/">HOME</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle"
+                                    href="https://aiosell.com/hotel-revenue-management-software/" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    OUR PRODUCTS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item"
+                                            href="https://aiosell.com/hotel-revenue-management-software/">Revenew
+                                            Management Software</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://aiosell.com/property-management-system/">Property Management
+                                            Software</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="https://aiosell.com/channel-manager/">Channel
+                                            Manager</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://aiosell.com/hotel-revenue-management-software/#book">Booking
+                                            Engine</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://aiosell.com/hotel-revenue-management-software/#rrm">Multi-Property
+                                            Management & CRS</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://aiosell.com/hotel-revenue-management-software/#crate">Rate
+                                            Shopper</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://aiosell.com/hotel-revenue-management-software/#adata">Analytics
+                                            & Reporting</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://aiosell.com/hotel-revenue-management-software/#hotel-web">Hotel
+                                            Website</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="https://aiosell.com/hotel-revenue-management-software/#ota">OTA
+                                            Management</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/">CASE
+                                    STUDIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://aiosell.com/news/">NEWS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://aiosell.com/blog/">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://aiosell.com/#pricing">PRICING</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    CONTACT US
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="https://aiosell.com/signup/">Get In Touch</a>
+                                    </li>
+                                    <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item" href="https://aiosell.com/free-trial/">Free Trial</a>
+                                    </li>
+                                    <hr class="dropdown-divider">
+                                    <li><a class="dropdown-item" href="https://aiosell.com/reseller-program/">Reseller
+                                            Program</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="about pt-4 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3 class="header">
+                        All In One Hotel Management System
+                    </h3>
+                    <p class="pb-4 pt-3">Aiosell is a fully integrated cloud based Hotel Management System & ERP that
+                        can
+                        increase your hospitality business & reduce costs & inefficiency</p>
+
+                    <h5>What makes Aiosell unique & different?</h6>
+                        <ul class="pb-3">
+                            <li>Extremely easy to use</li>
+                            <li>Low cost & Value for Money</li>
+                            <li>All In One System with all Modules</li>
+                            <li>Developed by hotel owners</li>
+                            <li>Best in class Dynamic Pricing & RMS system</li>
+                        </ul>
+
+                        <div class="row g-3">
+
+                            <div class="col-sm-6">
+                                <a class="btn btn-lg w-100 rounded-pill" href="http://aiosell.com/signup/">Know More</a>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <a class="btn btn-lg w-100 rounded-pill"
+                                    href="https://www.youtube.com/watch?v=8RzBK6jTrww">Product Demo</a>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <a class="btn btn-lg w-100 rounded-pill" href="https://youtu.be/5T_YBUqBz4Q">Dynamic
+                                    Pricing</a>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <a class="btn btn-lg w-100 rounded-pill" href="https://youtu.be/coFZXCKmcgM">Mobile
+                                    App</a>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card shadow mt-5">
+                        <div class="card-body">
+                            <iframe class="w-100" height="300px"
+                                src="https://www.youtube.com/embed/8RzBK6jTrww"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="products container pt-4 pb-5">
+
+        <h3 class="header text-center">Get 30 day Free Trial</h3>
+        <div class="hr mt-3 mb-3"></div>
+
+        <div class="form row g-3 mb-5">
+            <div class="col-sm-3">
+                <input type="text" class="form-control rounded-pill" placeholder="Email ID" aria-label="Email ID">
+            </div>
+            <div class="col-sm-3">
+                <input type="text" class="form-control rounded-pill" placeholder="Phone No." aria-label="Phone No.">
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control rounded-pill" placeholder="Message" aria-label="Message">
+            </div>
+            <div class="col-sm-2">
+                <input type="submit" class="form-control rounded-pill" value="Contact Us">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid">
+        <h3 class="header text-center">Products in Aiosell All in One System</h3>
+        <div class="hr mt-3"></div>
+
+        <div class="row pt-5 pb-5 ">
+
+            <div class="col-sm-6 mt-5 pt-5">
+                <img src="./assets/images/GROW-Your-Hotel-Business.png" class="w-100" alt="GROW-Your-Hotel-Business">
+            </div>
+
+            <div class="col-sm-6">
+                <p>Aiosell offers all modules required to make your hospitality business successful. You can opt for
+                    each module individually or the fully integrated All In One ERP System with all modules.</p>
+
+                <h3 class="product mt-4">Aiosell Products:</h3>
+                <ul class="productlist">
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/property-management-system/">Property Management System(PMS)</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/channel-manager/">Channel Manager</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">Revenue Management System (with
+                            Dynamic Pricing)</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">Booking Engine & Website (with
+                            Google integration)</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">Point of Sale System</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">Reviews & Reputation Management
+                            System</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">Multi-Property & Chain hotels
+                            management</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">Purchase & Inventory
+                            Management</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">Expenses & Accounting
+                            System</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">Housekeeping & Maintenace
+                            Module</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">HR & Employee Management
+                            System</a>
+                    </li>
+                    <li><i class="bi bi-check2"></i>
+                        <a href="https://aiosell.com/hotel-revenue-management-software/">CRM & Leads Management
+                            System</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="hotel-system container-fluid pt-5 pb-5">
+        <h3 class="header text-center pt-5 ">Why is Aiosell unique & different from other Hotel Systems?</h3>
+        <div class="hr mt-3 mb-3"></div>
+        <div class="table-responsive-sm p-4">
+            <table class="table table-bordered ">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th> <img src="./assets/images/Aiosell-Logo-white-revised.png" width="150px" height="35px"
+                                alt="img"></th>
+                        <th style="color:#ffffff;">Other Systems</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="w-100">
+                        <th><img src="./assets/images/icon1.png" alt=""> All in One System</th>
+                        <td>PMS, RMS, CM, POS, Reviews, Competition, Analytics, Booking Engine combined into one</td>
+                        <td>Separate Systems for each functionality</td>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/images/icon 2.png" alt=""> Automation</th>
+                        <td>Fully automated - minimum manual work</td>
+                        <td>Most tasks done manually</td>
+                    </tr>
+                    <tr class="w-100">
+                        <th><img src="./assets/images/icon 3.png" alt=""> Rate Management</th>
+                        <td>Dynamic Pricing using real-time factors</td>
+                        <td>Rates changed manually</td>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/images/icon 4.png" alt=""> Results</th>
+                        <td>Directly increase revenues by 30%</td>
+                        <td>Do not directly increase revenues</td>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/images/icon 5.png" alt=""> Transparency</th>
+                        <td>Automation is configurable based on rules</td>
+                        <td>Analytics based on on opaque data modelling</td>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/images/icon 6.png" alt=""> Integration</th>
+                        <td>Integrates with all major OTAs</td>
+                        <td>Minimum interoperability</td>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/images/icon 7.png" alt=""> Analytics & Reporting</th>
+                        <td>Advanced Analytics & Reporting</td>
+                        <td>Not readable, intuitive, and integrated</td>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/images/icon 8.png" alt=""> Chain Hotels</th>
+                        <td>Multi-property & CRS part of design</td>
+                        <td>Multi-property management is painful</td>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/images/icon 9.png" alt=""> OTA Management</th>
+                        <td>Automated OTA Content, Commissions & rate parity</td>
+                        <td>OTA Management done manually</td>
+                    </tr>
+                    <tr>
+                        <th><img src="./assets/images/icon 10.png" alt=""> Price</th>
+                        <td>Affordable (fixed & variable pricing options)</td>
+                        <td>Expensive & inflexible/td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="container pb-5">
+        <h3 class="header text-center mt-5">Hoteliers Across the Globe Trust Aiosell</h3>
+        <div class="hr mt-3"></div>
+        <p class="pb-4 pt-3 text-center">Aiosell has assisted hotels of all types (5 star, 3 star, independent <br>
+            homestays) increase business and efficiency while reducing costs.
+        </p>
+        <div class="row mt-3 mb-3">
+            <div class="col-sm-3">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./assets/images/card 1.png" style="float: left;" alt="...">
+                        <div style="float: right;">
+                            <h3>20000+</h3>
+                            <p>Rooms</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./assets/images/card 2.png" alt="...">
+                        <div style="float: right;">
+                            <h3>300+</h3>
+                            <p>Hotels</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-3">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./assets/images/card 3.png" alt="...">
+                        <div style="float: right;">
+                            <h3>200+</h3>
+                            <p>Cities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <img src="./assets/images/card 4.png" alt="...">
+                        <div style="float: right;">
+                            <h3>30+</h3>
+                            <p>Countries</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="case-study pt-5">
+        <h3 class="header text-center mt-5">Case Studies</h3>
+        <div class="hr mt-3 mb-5"></div>
+
+        <div class="container">
+
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/lotus-group-of-hotels-dubai-chooses-aiosell-rms/">
+                                        <div class="card-header">Lotus Group of hotels, Dubai</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/1.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">increase in sales and ADR</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/summit-hotel-benefits-from-aiosell-automated-dynamic-pricing/">
+                                        <div class="card-header">Summit Hotels & Resorts, India</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/2.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increase revenue by 15%</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/leisure-hotels-chooses-aiosell-for-dynamic-pricing-revenue-management/">
+                                        <div class="card-header">Leisure Hotels, India</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/3.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increased ADR across group</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/thee-group-of-hotels/">
+                                        <div class="card-header">Thee Group of Hotels, Thailand</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/4.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increased revenues by 25%</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-3">
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/sun-n-sand-hotel-mumbai/">
+                                        <div class="card-header">Sun n Sand Hotel, Mumbai</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/5.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increases ADR by 20%</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/the-riverside-hotel-durban-uses-aiosell-dynamic-pricing/">
+                                        <div class="card-header">Riverside Hotel, Durban</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/6.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increase business by 40%</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/paya-beach-spa-dive-resort-malaysia-increased-business-with-aiosell/">
+                                        <div class="card-header">Paya Beach Hotel & Resort, Malaysia</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/7.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increased business by 40%</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/muscatel-hotels-grows-to-3-hotels-with-aiosell-within-1-year/">
+                                        <div class="card-header">Muscatel Hotels, Sikkim</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/8.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Achieved occupancy of 86%</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-3">
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/infiniti-hotel-spa-indore-increase-adr-and-revpar-using-aiosell/">
+                                        <div class="card-header">Infiniti, Indore</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/9.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increases ADR by 20%</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/indigo-bahay-a-group-of-59-apartments-in-phillipines-uses-aiosell-dynamic-pricing/">
+                                        <div class="card-header">Indigo Bahay, Phillipines</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/10.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increased efficiency & ADR</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/ten-ten-wilshire-apartments-los-angeles-improves-adr-with-aiosell/">
+                                        <div class="card-header">Ten Ten Wilshire, Los Angeles</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/11.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">Increased ADR by 25%</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="card">
+                                    <a
+                                        href="https://aiosell.com/case-study-dynamic-hotel-management-system-aiosell/comet-motel-los-angeles-uses-aiosell-all-in-one-system/">
+                                        <div class="card-header">Comet Motel, Los Angeles</div>
+                                        <div class="card-body p-0 mt-3">
+                                            <img src="./assets/images/12.jpg" class="d-block w-100" alt="img">
+                                        </div>
+                                        <div class="card-footer">increase in sales by 20%</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <h3 class="header text-center mt-5">Our Partners</h3>
+        <div class="hr mt-3"></div>
+        <p class="pb-4 pt-3 text-center">Aiosell integrates with several key technology players to provide All-in-one
+            solution.
+        </p>
+        <div id="carouselAutoplaying" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row g-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/images/Agoda-logo-1.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/airbnb-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/Amadeus-logo-1.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/booking.com-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/channex-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/clock-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/images/Ctrip-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/d-edge-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/yatra-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/Easemytrip-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/Expedia-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/ezee-absolute_logo-1.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/images/gb-payments-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/Go-MMT-logo-1.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/google-hotel-ads-logo.png" class="mx-auto d-block w-100"
+                                alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/happy-easy-go-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/heartland-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/hostelworld-group-logo.png" class="mx-auto d-block w-100"
+                                alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/images/hotelbeds-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/hotelogix.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/hotels.com-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/IDSnext-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/irctc-logo.jpg" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/opera.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/images/rakuten-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/Razorpay-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/resavenue-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/sabre-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/reznext-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/siteminder_logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row g-3">
+                        <div class="col-sm-2">
+                            <img src="./assets/images/STAAH-Help-Centre_Logo-1.png" class="mx-auto d-block w-100"
+                                alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/tiket.com-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/traveloka-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/tripadvisor-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/winhms-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                        <div class="col-sm-2">
+                            <img src="./assets/images/wubook-logo.png" class="mx-auto d-block w-100" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="hotel-sales container-fluid">
+        <h3 class="text-center text-white pt-4">Want to Increase Your Hotel Sales?</h3>
+        <div class="hr2 mt-3 mb-3"></div>
+        <div class="container">
+            <div class="sales row g-3 mb-5">
+                <div class="col-sm-3">
+                    <input type="text" class="form-control rounded-pill" placeholder="Email ID" aria-label="Email ID">
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control rounded-pill" placeholder="Phone No." aria-label="Phone No.">
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control rounded-pill" placeholder="Message" aria-label="Message">
+                </div>
+                <div class="col-sm-2">
+                    <input type="submit" class="form-control rounded-pill" value="Contact Us">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="videos container-fluid">
+        <h3 class=" header text-center mt-5">Videos and Podcasts</h3>
+        <div class="hr mt-3 mb-5"></div>
+        <div>
+            <div class="container">
+                <div id="carouselplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row g-4">
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <a
+                                            href="https://aiosell.com/news/aiosell-a-fully-automated-revenue-management-system-for-hospitality-ecosystem/">
+                                            <div class="card-header">Podcast: Aiosell – A Fully Automated All in One
+                                                System</div>
+                                            <div class="card-body p-0 mt-3">
+                                                <img src="./assets/images/DeZero.jpg" class="d-block w-100" alt="img">
+                                            </div>
+                                            <div class="card-footer">Read More+</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <a
+                                            href="https://aiosell.com/news/business-of-hotels-with-siddharth-goenka-octave-hotels-aiosell-technologies/">
+                                            <div class="card-header">Podcast: Business Model of Hotels - Indian Dream
+                                                Project
+                                            </div>
+                                            <div class="card-body">
+                                                <img src="./assets/images/Indian-Dream.jpeg" class="d-block w-100"
+                                                    alt="img">
+                                            </div>
+                                            <div class="card-footer">Read More+</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <a
+                                            href="https://aiosell.com/news/aiosell-at-2021-annual-budget-panel-discussion-on-newsx/">
+                                            <div class="card-header">Aiosell at News X Travel Industry Discussion</div>
+                                            <div class="card-body p-0 mt-3">
+                                                <img src="./assets/images/Aiosell-at-2021-Annual-Budget-Panel-Discussion-on-NewsX-1.jpg"
+                                                    class="d-block w-100" alt="img">
+                                            </div>
+                                            <div class="card-footer">Read More+</div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row g-3">
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <a href="https://aiosell.com/news/aiosell-at-travel-tech-apac-webinar/">
+                                            <div class="card-header">Aiosell at TravelTech 2020</div>
+                                            <div class="card-body p-0 mt-3">
+                                                <img src="./assets/images/Aiosell-in-Travel-Tech-APAC.png"
+                                                    class="d-block w-100" alt="ig">
+                                            </div>
+                                            <div class="card-footer">Read More+</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <a href="https://aiosell.com/news/meet-aiosell-founder-ceo-siddharth-goenka/">
+                                            <div class="card-header">Meet Founder & CEO</div>
+                                            <div class="card-body p-0 mt-3">
+                                                <img src="./assets/images/Meet-Founder-CEO-of-Aiosell-Technologies-Siddharth-Goenka-0-32-screenshot.jpg"
+                                                    class="d-block w-100" alt="img">
+                                            </div>
+                                            <div class="card-footer">Read More+</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card">
+                                        <a
+                                            href="https://aiosell.com/news/hospitality-industry-will-chase-efficiency-in-the-future/">
+                                            <div class="card-header">Podcast:Hospitality Industry will chase efficiency
+                                                in the future</div>
+                                            <div class="card-body p-0 mt-3">
+                                                <img src="./assets/images/TheTechPod.jpeg" class="d-block w-100"
+                                                    alt="img">
+                                            </div>
+                                            <div class="card-footer">Read More+</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pb-5">
+        <h3 class="header text-center mt-5">Aiosell Pricing</h3>
+        <div class="hr mt-3"></div>
+        <p class="pb-4 pt-3 text-center">
+            Aiosell provides both fixed & variable pricing models for hotels.
+        </p>
+
+        <div class="container" style="padding-left: 170px;padding-right: 170px;">
+            <div class="table-responsive-sm p-4" style="position: relative;">
+                <table class="table table-bordered " style="position: relative; padding: 1.5rem;">
+                    <thead>
+                        <tr>
+                            <th style="color:#ffffff; font-size: larger;">Product</th>
+                            <th style="color:#ffffff; font-size: larger;">Fixed Fees <br>$ USD</th>
+                            <th style="color:#ffffff; font-size: larger;">% Variable Fees</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Channel Manager</th>
+                            <td>$15</td>
+                            <td rowspan="15" class="single-online ">
+                                <span style="display: block;" class="single">3.5% of Online <br> Revenues</span>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <th>Booking Engine,Website & Google Free Links</th>
+                            <td>3.5%*</td>
+
+                        </tr>
+                        <tr>
+                            <th>Property Management System</th>
+                            <td>$30</td>
+
+                        </tr>
+                        <tr>
+                            <th>Revenue Management System</th>
+                            <td>$150</td>
+
+                        </tr>
+                        <tr>
+                            <th>Point of Sale System</th>
+                            <td>$20</td>
+
+                        </tr>
+                        <tr>
+                            <th>Reviews & Reputation Manager</th>
+                            <td>$20</td>
+
+                        </tr>
+                        <tr>
+                            <th>Group Hotels/CRS</th>
+                            <td>$20</td>
+
+                        </tr>
+                        <tr>
+                            <th><img src="./assets/images/icon1.png" alt=""> White Labelling</th>
+                            <td>$20</td>
+
+                        </tr>
+                        <tr>
+                            <th><img src="https://aiosell.wpenginepowered.com/wp-content/uploads/2022/08/Maintence.webp"
+                                    alt=""> Competition Shopper</th>
+                            <td>$20</td>
+
+                        </tr>
+                        <tr>
+                            <th>Expense Management & Cash Book</th>
+                            <td>$20</td>
+
+                        </tr>
+                        <tr>
+                            <th>CRM & Leads Management</th>
+                            <td>$20</td>
+                        </tr>
+                        <tr>
+                            <th>Stores & Inventory Management</th>
+                            <td>$50</td>
+
+                        </tr>
+                        <tr>
+                            <th>Accounting Integration</th>
+                            <td>$50</td>
+
+                        </tr>
+                        <tr>
+                            <th>Maintenance Module</th>
+                            <td>$10</td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="rounded-circle pill">
+                    OR
+                </div>
+            </div>
+            <ul class="quick-link2">
+                <li>
+                    <i class="bi bi-diamond-fill" style="font-size: 10px;"></i> All charges are per property per month
+                </li>
+                <li>
+                    <i class="bi bi-diamond-fill" style="font-size: 10px;"></i> OTA Registration will Incur an one-time
+                    cost of USD 100.
+                </li>
+                <li>
+                    <i class="bi bi-diamond-fill" style="font-size: 10px;"></i> For Booking Engine, the variable fees is
+                    calculated on direct
+                    bookings only (amount that customer
+                    pays)
+                </li>
+                <li>
+                    <i class="bi bi-diamond-fill" style="font-size: 10px;"></i> Analytics & Reporting are part of the
+                    Revenue Management System.
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="special-offers container-fluid">
+        <h3 class="text-center text-white pt-4">Get in Touch Now to Find Out About Special Offers? </h3>
+        <div class="hr2 mt-3 mb-3"></div>
+        <div class="container">
+            <div class="sales row g-3 mb-5">
+                <div class="col-sm-3">
+                    <input type="text" class="form-control rounded-pill" placeholder="Email ID" aria-label="Email ID">
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control rounded-pill" placeholder="Phone No." aria-label="Phone No.">
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control rounded-pill" placeholder="Message" aria-label="Message">
+                </div>
+                <div class="col-sm-2">
+                    <input type="submit" class="form-control rounded-pill" value="Contact Us">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-sm-4">
+                <img src="./assets/images/Aiosell-Logo-Dark.png" alt="img">
+                <a href="https://www.facebook.com/aiosell/"><i class="icons rounded-circle fa fa-facebook "
+                        style="font: size 24px"></i>
+                </a>
+                <a href="https://twitter.com/aiosell/"><i class="icons rounded-circle fa fa-twitter"
+                        style="font: size 24px"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/aiosell/"><i class="icons rounded-circle fa fa-linkedin"
+                        style="font: size 24px"></i>
+                </a>
+                <a href="https://www.instagram.com/aiosell_technologies/"><i
+                        class="icons rounded-circle fa fa-instagram" style="font: size 24px;"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=918431908521"><i
+                        class="icons rounded-circle fa fa-whatsapp" style="font: size 24px;"></i>
+                </a>
+
+            </div>
+            <div class="col-sm-6">
+
+            </div>
+            <div class="col-sm-2">
+                <h3 class="header">QUICK LINK</h3>
+                <ul class="quick-link">
+                    <li><a class="blind " href="https://aiosell.com/hotel-revenue-management-software/">Our Products</a></li>
+                    <li><a class="blind" href="https://aiosell.com/blog/">Blog</a></li>
+                    <li><a class="blind" href="https://aiosell.com/careers/">Careers</a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="hr1 mt-5 mb-3"></div>
+        <div class="copyright pb-4 pt-3">
+            <p>Copyright @ 2023 Aiosell Technologies Pvt. Ltd. | Privacy Policy</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
